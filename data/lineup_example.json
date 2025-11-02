@@ -1,0 +1,25 @@
+{
+  "name": "Fantasy Daily",
+  "salary_cap": 50000,
+  "positions": {
+    "QB": 1,
+    "RB": 2,
+    "WR": 3,
+    "TE": 1,
+    "FLEX": 1,
+    "DST": 1
+  },
+  "players": [
+    {"name": "Player A", "position": "QB", "salary": 8000, "projection": 22.5},
+    {"name": "Player B", "position": "QB", "salary": 7500, "projection": 21.0},
+    {"name": "Player C", "position": "RB", "salary": 9500, "projection": 18.5},
+    {"name": "Player D", "position": "RB", "salary": 8500, "projection": 17.2},
+    {"name": "Player E", "position": "RB", "salary": 7000, "projection": 15.0},
+    {"name": "Player F", "position": "WR", "salary": 9000, "projection": 19.0},
+    {"name": "Player G", "position": "WR", "salary": 8200, "projection": 16.5},
+    {"name": "Player H", "position": "WR", "salary": 6500, "projection": 14.2},
+    {"name": "Player I", "position": "TE", "salary": 5500, "projection": 12.0},
+    {"name": "Player J", "position": "DST", "salary": 3000, "projection": 8.5}
+  ]
+}
+

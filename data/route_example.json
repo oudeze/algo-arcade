@@ -1,0 +1,25 @@
+{
+  "name": "Saturday Errands",
+  "home": "123 Main St, City, State",
+  "stops": [
+    {
+      "name": "Grocery Store",
+      "address": "456 Oak Ave, City, State",
+      "hours": {"open": "09:00", "close": "21:00"},
+      "duration": 30
+    },
+    {
+      "name": "Gym",
+      "address": "789 Pine Rd, City, State",
+      "hours": {"open": "06:00", "close": "22:00"},
+      "duration": 60
+    },
+    {
+      "name": "Pharmacy",
+      "address": "321 Elm St, City, State",
+      "hours": {"open": "08:00", "close": "20:00"},
+      "duration": 15
+    }
+  ]
+}
+

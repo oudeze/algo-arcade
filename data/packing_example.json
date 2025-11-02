@@ -1,0 +1,16 @@
+{
+  "name": "Weekend Trip",
+  "budget": 500,
+  "max_weight": 50,
+  "items": [
+    {"name": "Laptop", "value": 10, "weight": 3, "cost": 50, "category": "electronics"},
+    {"name": "Shoes", "value": 8, "weight": 2, "cost": 80, "category": "clothing"},
+    {"name": "Camera", "value": 9, "weight": 1, "cost": 150, "category": "electronics"},
+    {"name": "Jeans", "value": 6, "weight": 1, "cost": 60, "category": "clothing"},
+    {"name": "Sweater", "value": 7, "weight": 1, "cost": 45, "category": "clothing"},
+    {"name": "Headphones", "value": 8, "weight": 0.5, "cost": 100, "category": "electronics"},
+    {"name": "Toiletries", "value": 5, "weight": 2, "cost": 20, "category": "essentials"},
+    {"name": "Book", "value": 4, "weight": 0.5, "cost": 15, "category": "entertainment"}
+  ]
+}
+
