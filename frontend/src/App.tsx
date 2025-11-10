@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import PackingPlanner from './apps/PackingPlanner'
 import RoutePlanner from './apps/RoutePlanner'
+import LineupOptimizer from './apps/LineupOptimizer'
 import './App.css'
 
-type AppView = 'packing' | 'route'
+type AppView = 'packing' | 'route' | 'lineup'
 
 function App() {
   const [currentView, setCurrentView] = useState<AppView>('packing')
@@ -25,11 +26,18 @@ function App() {
           >
             Route Optimizer
           </button>
+          <button
+            className={currentView === 'lineup' ? 'active' : ''}
+            onClick={() => setCurrentView('lineup')}
+          >
+            Lineup Optimizer
+          </button>
         </div>
       </nav>
       <main>
         {currentView === 'packing' && <PackingPlanner />}
         {currentView === 'route' && <RoutePlanner />}
+        {currentView === 'lineup' && <LineupOptimizer />}
       </main>
     </div>
   )
