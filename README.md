@@ -206,7 +206,7 @@ ILP finds the optimal lineup that satisfies all constraints and maximizes points
 
 ## Sample Data
 
-Check out `data/` for example JSON files:
+`data/` for example JSON files:
 - `packing_example.json` - Sample packing problem
 - `route_example.json` - Sample route with stops
 - `lineup_example.json` - Sample fantasy lineup
